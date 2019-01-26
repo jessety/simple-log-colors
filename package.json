@@ -1,7 +1,7 @@
 {
   "name": "simple-log-colors",
   "version": "1.0.0",
-  "description": "Extremely lightweight library for coloring Node terminal output",
+  "description": "Extremely lightweight zero-dependency library for coloring Node terminal output",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
