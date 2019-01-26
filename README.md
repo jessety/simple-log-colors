@@ -1,5 +1,5 @@
 # simple-log-colors
-> Extremely simple library for coloring Node terminal output
+> Extremely simple zero-dependency library for coloring Node terminal output
 
 Not only does `simple-log-colors` have no dependencies, but it's also under 50 lines total.
 
