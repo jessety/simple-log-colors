@@ -30,6 +30,18 @@ const { red, green, blue } = require('simple-log-colors');
 console.log(`${red('Error')} the ${green('POST')} request to the ${blue('/test')} route was not signed properly.`);
 ```
 
+## Colors
+
+The following colors are supported
+
+- `black`
+- `red`
+- `green`
+- `yellow`
+- `blue`
+- `magenta`
+- `cyan`
+- `white`
 
 ## License
 
