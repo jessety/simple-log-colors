@@ -32,7 +32,7 @@ console.log(`${red('Error')} the ${green('POST')} request to the ${blue('/test')
 
 ## Colors
 
-The following colors are supported
+The following colors are supported:
 
 - `black`
 - `red`
@@ -42,6 +42,12 @@ The following colors are supported
 - `magenta`
 - `cyan`
 - `white`
+
+All of these colors are also supported as background colors. For background colors, add the suffix `Background` onto a supported color.
+
+```javascript
+console.error(colors.redBackground('ERROR'));
+```
 
 ## License
 
