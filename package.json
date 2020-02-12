@@ -1,6 +1,6 @@
 {
   "name": "simple-log-colors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extremely lightweight zero-dependency library for coloring Node terminal output",
   "keywords": [
     "terminal",
