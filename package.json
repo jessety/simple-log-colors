@@ -2,22 +2,29 @@
   "name": "simple-log-colors",
   "version": "1.0.2",
   "description": "Extremely lightweight zero-dependency library for coloring Node terminal output",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "terminal",
+    "color"
+  ],
+  "homepage": "https://github.com/jessety/simple-log-colors#readme",
+  "bugs": {
+    "url": "https://github.com/jessety/simple-log-colors/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jessety/simple-log-colors.git"
   },
-  "keywords": [
-    "terminal",
-    "color"
-  ],
-  "author": "Jesse T Youngblood <jessetyoungblood@gmail.com> (http://jesseyoungblood.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jessety/simple-log-colors/issues"
+  "author": "Jesse Youngblood <jessetyoungblood@gmail.com> (https://jesseyoungblood.com)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
   },
-  "homepage": "https://github.com/jessety/simple-log-colors#readme"
+  "devDependencies": {
+    "@jessety/eslint-config": "^1.0.4",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
+  }
 }
