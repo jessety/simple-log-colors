@@ -1,6 +1,4 @@
-'use strict';
-
-const colors = require('./index.js');
+import colors from '../';
 
 test('colors text', () => {
   expect(colors.red('test')).toBe('\u001b[31mtest\u001b[0m');

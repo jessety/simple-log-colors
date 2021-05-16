@@ -1,6 +1,4 @@
-'use strict';
-
-const colors = require('./index');
+import colors from '../';
 
 // Template strings
 console.log(`Hello! It's ${colors.green('nice')} to meet ${colors.blue('you')}!`);
@@ -15,11 +13,5 @@ console.log(colors.blue('Log messages can be hard to read.', true), colors.green
 console.log(`But check out how nice and ${colors.yellow('readable')} this is:`);
 console.log(`${colors.cyan('3:12 1/4/2019 UTC')}: https ${colors.blue('GET')} /`);
 console.log(`${colors.cyan('3:13 1/4/2019 UTC')}: https ${colors.blue('POST')} /purchase`);
-
-console.log('\nHere are all possible styles: ');
-for (const [name, func] of Object.entries(colors)) {
-
-  console.log(` * ${func(name)}`);
-}
 
 console.log('\n', colors.magentaBackground('Thanks!'));

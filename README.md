@@ -2,8 +2,9 @@
 
 Extremely lightweight zero-dependency library for coloring Node terminal output
 
-[![build](https://github.com/jessety/simple-log-colors/workflows/build/badge.svg)](https://github.com/jessety/simple-log-colors/actions)
+[![build](https://github.com/jessety/simple-log-colors/workflows/ci/badge.svg)](https://github.com/jessety/simple-log-colors/actions)
 [![npm](https://img.shields.io/npm/v/simple-log-colors.svg)](https://www.npmjs.com/package/simple-log-colors)
+[![license](https://img.shields.io/github/license/jessety/simple-log-colors.svg)](https://github.com/jessety/simple-log-colors/blob/main/LICENSE)
 
 ## Install
 
