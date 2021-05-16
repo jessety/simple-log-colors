@@ -2,6 +2,8 @@
 
 const colors = require('../');
 
+process.stdout.isTTY = true;
+
 test('colors text', () => {
   expect(colors.red('test')).toBe('\u001b[31mtest\u001b[0m');
 });
