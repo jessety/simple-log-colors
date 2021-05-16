@@ -1,8 +1,8 @@
 'use strict';
 
-const colors = require('../');
-
 process.stdout.isTTY = true;
+
+const colors = require('../');
 
 test('colors text', () => {
   expect(colors.red('test')).toBe('\u001b[31mtest\u001b[0m');

@@ -1,6 +1,6 @@
-import colors from '../';
-
 (process as any).stdout.isTTY = true;
+
+import colors from '../';
 
 test('colors text', () => {
   expect(colors.red('test')).toBe('\u001b[31mtest\u001b[0m');
